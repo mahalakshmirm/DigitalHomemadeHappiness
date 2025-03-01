@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food-item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.food-item h2 {
+    margin-top: 0;
+}
+
+.food-item p {
+    margin-top: 5px;
+}
+
+.food-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-detail h2 {
+    margin-top: 0;
+}
+.product-button {
+    margin-top: 10px; /* Adjust as needed */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set background color of the button */
+    color: #fff; /* Set text color of the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.product-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
