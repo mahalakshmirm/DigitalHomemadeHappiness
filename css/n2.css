@@ -1,0 +1,85 @@
+*{
+    
+        margin:0;
+        padding:15px;
+        box-sizing:border-box;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: 600px;
+        color: #fff;
+        font-size:20px;
+
+    
+}
+
+body
+        {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            background-image: url(f1.jpg);
+            background-size:cover;
+            background-position:center;
+        } 
+
+        h1
+        {
+            font-size: xx-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+        }
+        
+.product-detail-container {
+    position:relative;
+    width:1400px;
+    height:700px;
+    background:transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    box-shadow:0 0 30px rgba(0,0,0,.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    
+    transition:transform .5s ease, height .2s ease;
+
+
+    
+}
+
+.product-image {
+    display: flex;
+    border-radius: 50%;
+  height:380px;
+  width:280px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+        
+
+}
+
+.product-details {
+    text-align: center;
+    flex: 2;
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.product-button {
+    margin-top: 10px; /* Adjust as needed */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set background color of the button */
+    color: #fff; /* Set text color of the button */
+    text-align: space-between;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.product-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
