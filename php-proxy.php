@@ -1,5 +1,5 @@
 <?php
-$url = $_GET['url'];
+$url = 'Admin.php';
 if (!empty($url)) {
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
