@@ -62,3 +62,5 @@ php/foodupload---->Whenever chef upload their food images,all those images are s
 ------>It contains all js language files <br><br>
 **database** <br>
 ------>It contain database exported raw code <br><br>
+**output_screenshots**<br>
+------>It contain all webpages screenshotes of this website
