@@ -6,7 +6,7 @@ It is a food uploading and ordering website built using **PHP, CSS, HTML, JavaSc
 
 ## Tech stack
 * **Frontend:** PHP,HTML,CSS,JS <br>
-* **Backend:**MYSQL <br>
+* **Backend:** MYSQL <br>
 
 ## Features
 **Main dashboard** <br>
