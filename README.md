@@ -4,7 +4,7 @@
 
 It is a food uploading and ordering website built using **PHP, CSS, HTML, JavaScript** and **MySQL**.Here We create many web pages to interact with users.It allows chefs to upload their dishes with prices and description, while customers can browse and order homemade food.
 
-##Tech stack
+## Tech stack
 * **Frontend:** PHP,HTML,CSS,JS <br>
 * ** Backend:**MYSQL <br>
 
@@ -12,7 +12,7 @@ It is a food uploading and ordering website built using **PHP, CSS, HTML, JavaSc
 **Main dashboard** <br>
 It is the main page .It helps to go other pages <br>
 
-**View our team ** <br>
+**View our team** <br>
 our team members details <br>
 
 **About** <br>
