@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ff6600;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  box-shadow: 0 3px 50px orangered inset,
+              0 3px 50px #ff4500 inset;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 1 45%;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: orangered;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.inputBox {
+  margin-bottom: 15px;
+}
+
+.inputBox span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.inputBox input,
+.inputBox select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.inputBox input:focus,
+.inputBox select:focus {
+  border-color: orangered;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ff5c1a;
+}
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+}
