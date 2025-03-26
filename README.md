@@ -53,12 +53,12 @@ This website is useful for chef,customers and admin team .This website is very u
 ------>It contains all PHP language files <br>
 php/picture---->It contain the background pictures which we use for our website. <br>
 php/serverupload----->Whenever server upload their photos while doing sing up,all those images are stored inside this folder <br>
-php/foodupload---->Whenever chef upload their food images,all those images are stored in this file <br>
+php/foodupload---->Whenever chef upload their food images,all those images are stored in this file <br><br>
 **html** <br>
------->It contains all HTML language files <br>
+------>It contains all HTML language files <br><br>
 **css** <br>
------>It contains all css language files <br>
+----->It contains all css language files <br><br>
 **JS** <br>
------->It contains all js language files <br>
+------>It contains all js language files <br><br>
 **database** <br>
------->It contain database exported raw code <br>
+------>It contain database exported raw code <br><br>
