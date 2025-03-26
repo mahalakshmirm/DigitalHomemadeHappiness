@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/PopCSS.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #34425A;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .btn-container {
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            font-size: 16px;
+            background-color: #ff4500;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e03e00;
+        }
+
+        .popup {
+            width: 300px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            visibility: hidden;
+            z-index: 999;
+            color: #000;
+        }
+
+        .popup.open-popup {
+            transform: translate(-50%, -50%) scale(1);
+            visibility: visible;
+        }
+
+        .popup img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .popup h2 {
+            margin: 10px 0;
+            color: #ff4500;
+        }
+
+        .popup button {
+            margin-top: 20px;
+            padding: 8px 16px;
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .popup button a {
+            color: white;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p style="font-size: 20px;color:white"><b>Do you really want to pay?</b></p>
+        <div class="btn-container">
+            <button type="button" class="btn" onclick="openPopup()">Confirm</button>
+            <button type="button" class="btn" onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <img src="picture/weblogo.jpg" alt="Logo">
+        <h2>Thank You</h2>
+        <p>Order placed</p>
+        <p>Successfully</p>
+        <button type="button">
+            <a href="../html/dashboard.html">OK</a>
+        </button>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+
+        function goBack() {
+            
+            window.location.href = "../php/CustomerPayment.php";
+
+        }
+    </script>
+
+</body>
+</html>
